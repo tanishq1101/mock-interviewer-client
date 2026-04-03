@@ -1,10 +1,14 @@
-/* eslint-disable no-undef */
+/* eslgit remote -v
+git config --get user.name
+git config --get user.email
+gh auth status  # if you used the GitHub CLI (optional)int-disable no-undef */
 /* eslint-env node */
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // Allow specifying a base path (useful for GitHub Pages deployment)
 // Set VITE_BASE when running the build or in the GitHub Actions workflow.
+// eslint-disable-next-line no-undef
 const basePath = (typeof process !== 'undefined' && process.env.VITE_BASE) || '/';
 
 // https://vite.dev/config/
