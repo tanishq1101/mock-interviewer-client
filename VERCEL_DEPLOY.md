@@ -37,7 +37,7 @@ chmod +x ./scripts/push_subdir_to_remote.sh
 In **Project Settings → Environment Variables**, add:
 
 - `VITE_CLERK_PUBLISHABLE_KEY` = your Clerk publishable key
-- `VITE_API_URL` = your backend API base URL (example: `https://your-backend-domain/api`)
+- `VITE_API_URL` = `https://mock-interviewer-server.onrender.com/api`
 - Optional: `VITE_BASE` = `/` (for Vercel)
 
 ## 4) Deploy
